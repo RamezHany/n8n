@@ -89,6 +89,11 @@
       "vue-tsc": "^2.1.10",
       "ws": ">=8.17.1"
     },
+    
+  "scripts": {
+    "build": "build --output public"
+  },
+
     "patchedDependencies": {
       "bull@4.12.1": "patches/bull@4.12.1.patch",
       "pkce-challenge@3.0.0": "patches/pkce-challenge@3.0.0.patch",
